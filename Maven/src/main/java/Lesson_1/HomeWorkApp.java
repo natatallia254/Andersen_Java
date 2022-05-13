@@ -15,11 +15,11 @@ public class HomeWorkApp {
     }
 
     public static void checkSumSign() {
-        int a = 3;
-        int b = 6;
-        int c = a + b;
+        int a=3;
+        int b=6;
+        int c=a+b;
 
-        if (c >= 0) {
+        if (c>=0) {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
@@ -27,11 +27,11 @@ public class HomeWorkApp {
     }
 
     public static void printColor() {
-        int value = 525;
+        int value=525;
 
-        if (value <= 0) {
+        if (value<=0) {
             System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
+        } else if (value>0 && value<=100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
@@ -39,10 +39,10 @@ public class HomeWorkApp {
     }
 
     public static void compareNumbers() {
-        int a = -5;
-        int b = 10;
+        int a=-5;
+        int b=10;
 
-        if (a >= b) {
+        if (a>=b) {
             System.out.println("a>=b");
         } else {
             System.out.println("a<b");
